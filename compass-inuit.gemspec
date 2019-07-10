@@ -13,6 +13,4 @@ Gem::Specification.new do |s|
   s.files += Dir.glob("lib/**/*.*")
   s.files += Dir.glob("stylesheets/**/*.*")
   s.files += Dir.glob("templates/**/*.*")
-  s.has_rdoc = false
-  s.add_dependency("compass", [">= 0.12.2"])
 end
